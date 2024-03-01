@@ -1,0 +1,200 @@
+.content{
+border: 4px gray;
+height: 1000px;
+}
+.overview {
+float: right;
+width: 250px;
+height: 800px;
+background-color: #A2B964;
+}
+.overviewcontent {
+float: right;
+width: 250px;
+height: 40px;
+background-color: #A2B964
+}
+.score {
+background-color: #A2B964;
+}
+.critics {
+display: grid;
+}
+.criticicon{
+	float: left;
+	padding-right: 5px;
+	padding-left:5px;
+}
+.critics0 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname0{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+}
+.critics1 {
+width: 200px;
+border: 2px gray;
+grid-column: 2;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname1{
+grid-column: 2;
+width: 200px;
+margin: 8px;
+}
+.critics2 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname2{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+}
+.critics3 {
+width: 200px;
+border: 2px gray;
+grid-column: 2;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname3{
+grid-column: 2;
+width: 200px;
+margin: 8px;
+}
+.critics4 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname4{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+}
+.critics5 {
+width: 200px;
+border: 2px gray;
+grid-column: 2;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname5{
+grid-column: 2;
+width: 200px;
+margin: 8px;
+}
+.critics6 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname6{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+}
+.critics7 {
+width: 200px;
+border: 2px gray;
+grid-column: 2;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname7{
+grid-column: 2;
+width: 200px;
+margin: 8px;
+}
+.critics8 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname8{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+}
+.critics9 {
+width: 200px;
+border: 2px gray;
+grid-column: 2;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname9{
+grid-column: 2;
+width: 200px;
+margin: 8px;
+}
+.critics10 {
+width: 200px;
+border: 2px gray;
+grid-column: 1;
+background-color: #E1D697;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.criticsname10{
+grid-column: 1;
+width: 200px;
+margin: 8px;
+padding: 8px;
+font-weight:bold;
+overflow: auto;
+margin: auto;
+}
+.commentnum {
+float: none;
+background-color: #A2B964;
+}
