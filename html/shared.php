@@ -1,5 +1,5 @@
 <?php
-$movie = $_GET['film'];
+$movie = $_REQUEST['film'];
 $title = $movie
 function loadMovieInfo() {
 	$movieinfofile = fopen("info.txt","r");
