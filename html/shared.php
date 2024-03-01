@@ -1,10 +1,6 @@
 <?php
 $movie = $_GET['film'];
-
-while ($movie != NULL)
-{
-
-}
+$title = $movie
 function loadMovieInfo() {
 	$movieinfofile = fopen("info.txt","r");
 	$movieinfomarkup = fgets($movieinfofile);
