@@ -67,7 +67,7 @@ function loadReview8() {
 function loadReview9() {
 	$moviereviewassign10 = "<div>";
 	$moviereview10markup = readfile("review10.txt");
-	$moviereview10markup = $moviereviewassign10 . $moviereviewmarkup10 . "</div>"
+	$moviereview10markup = $moviereviewassign10 . $moviereviewmarkup10 . "</div>";
 	return $moviereviewmarkup10;
 }
 function loadReview10() {
