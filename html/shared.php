@@ -1,73 +1,86 @@
 <?php
 $movie = $_REQUEST['film'];
 $title = $movie
+
 function loadMovieInfo() {
-	$movieinfofile = fopen("info.txt","r");
-	$movieinfomarkup = fgets($movieinfofile);
+	$movieinfoassign = "<div>";
+	$movieinfomarkup = readfile("info.txt");
+	$movieinfomarkup = $movieinfoassign . $movieinfomarkup . "</div>"
 	return $movieinfomarkup;
 }
 
 function loadReview() {
-	$moviereviewfile1 = fopen("review1.txt","r");
-	$moviereview1markup = fgets($moviereviewfile1);
+	$moviereviewassign1 = "<div>";
+	$moviereview1markup = readfile("review1.txt");
+	$moviereview1markup = $moviereviewassign1 . $moviereviewmarkup1 . "</div>"
 	return $moviereview1markup;
 }
 
 function loadReview1() {
-	$moviereviewfile2 = fopen("review2.txt","r");
-	$moviereview2markup = fgets($moviereviewfile2);
+	$moviereviewassign2 = "<div>";
+	$moviereview2markup = readfile("review2.txt");
+	$moviereview2markup = $moviereviewassign2 . $moviereviewmarkup2 . "</div>"
 	return $moviereviewmarkup2;
 }
 function loadReview2() {
-	$moviereviewfile3 = fopen("review3.txt","r");
-	$moviereview3markup = fgets($moviereviewfile3);
+	$moviereviewassign3 = "<div>";
+	$moviereview3markup = readfile("review3.txt");
+	$moviereview3markup = $moviereviewassign3 . $moviereviewmarkup3 . "</div>"
 	return $moviereviewmarkup3;
 }
 function loadReview3() {
-	$moviereviewfile4 = fopen("review4.txt","r");
-	$moviereview4markup = fgets($moviereviewfile4);
+	$moviereviewassign4 = "<div>";
+	$moviereview4markup = readfile("review4.txt");
+	$moviereview4markup = $moviereviewassign4 . $moviereviewmarkup4 . "</div>"
 	return $moviereviewmarkup4;
 }
 function loadReview4() {
-	$moviereviewfile5 = fopen("review5.txt","r");
-	$moviereview5markup = fgets($moviereviewfile5);
+	$moviereviewassign5 = "<div>";
+	$moviereview5markup = readfile("review5.txt");
+	$moviereview5markup = $moviereviewassign5 . $moviereviewmarkup5 . "</div>"
 	return $moviereviewmarkup5;
 }
 function loadReview5() {
-	$moviereviewfile6 = fopen("review6.txt","r");
-	$moviereview6markup = fgets($moviereviewfile6);
+	$moviereviewassign6 = "<div>";
+	$moviereview6markup = readfile("review6.txt");
+	$moviereview6markup = $moviereviewassign6 . $moviereviewmarkup6 . "</div>"
 	return $moviereviewmarkup6;
 }
 function loadReview6() {
-	$moviereviewfile7 = fopen("review7.txt","r");
-	$moviereview7markup = fgets($moviereviewfile7);
+	$moviereviewassign7 = "<div>";
+	$moviereview7markup = readfile("review7.txt");
+	$moviereview7markup = $moviereviewassign7 . $moviereviewmarkup7 . "</div>"
 	return $moviereviewmarkup7;
 }
 function loadReview7() {
-	$moviereviewfile8 = fopen("review8.txt","r");
-	$moviereview8markup = fgets($moviereviewfile8);
+	$moviereviewassign8 = "<div>";
+	$moviereview8markup = readfile("review8.txt");
+	$moviereview8markup = $moviereviewassign8 . $moviereviewmarkup8 . "</div>"
 	return $moviereviewmarkup8;
 }
 function loadReview8() {
-	$moviereviewfile9 = fopen("review9.txt","r");
-	$moviereview9markup = fgets($moviereviewfile9);
+	$moviereviewassign9 = "<div>";
+	$moviereview9markup = readfile("review9.txt");
+	$moviereview9markup = $moviereviewassign9 . $moviereviewmarkup9 . "</div>"
 	return $moviereviewmarkup9;
 }
 function loadReview9() {
-	$moviereviewfile10 = fopen("review10.txt","r");
-	$moviereview10markup = fgets($moviereviewfile10);
+	$moviereviewassign10 = "<div>";
+	$moviereview10markup = readfile("review10.txt");
+	$moviereview10markup = $moviereviewassign10 . $moviereviewmarkup10 . "</div>"
 	return $moviereviewmarkup10;
 }
 function loadReview10() {
-	$moviereviewfile11 = fopen("review11.txt","r");
-	$moviereview11markup = fgets($moviereviewfile11);
+	$moviereviewassign11 = "<div>";
+	$moviereview11markup = readfile("review11.txt");
+	$moviereview11markup = $moviereviewassign11 . $moviereviewmarkup11 . "</div>"
 	return $moviereviewmarkup11;
 }
 
 function loadOverview() {
-	$movieoverviewimagefile = fopen("overview.png", "r");
-	$movieoverviewfile = fopen("overview.txt","r");
-	$movieoverviewmarkup = fgets($movieoverviewfile);
+	$movieoverviewdiv = "<div>";
+	$movieoverviewmarkup = readfile("overview.txt");
+	$movieoverviewmarkup = $movieoverviewdiv . $movieoverviewmarkup . "</div>"
 	return $movieoverviewmarkup;
 }
 $movieinfo = loadMovieInfo();
