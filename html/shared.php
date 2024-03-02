@@ -77,12 +77,20 @@ function loadReview10() {
 	return $moviereviewmarkup11;
 }
 
+function loadoverviewimage() {
+	$movieimgdiv = "<div>";
+	$movieimgmarkup = readfile("overview.png");
+	$movieimgmarkup = $movieimgdiv . $movieimgmarkup . "</div>";
+	return $movieimgmarkup;
+}
+
 function loadOverview() {
 	$movieoverviewdiv = "<div>";
 	$movieoverviewmarkup = readfile("overview.txt");
 	$movieoverviewmarkup = $movieoverviewdiv . $movieoverviewmarkup . "</div>";
 	return $movieoverviewmarkup;
 }
+
 $movieinfo = loadMovieInfo();
 $moviereview1 = loadReview();
 $moviereview2 = loadReview1();
@@ -96,5 +104,5 @@ $moviereview9 = loadReview8();
 $moviereview10 = loadReview9();
 $moviereview11 = loadReview10();
 $movieoverview = loadOverview();
-
+$movieoverviewimage = loadoverviewimage();
 ?>
