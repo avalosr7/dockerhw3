@@ -22,47 +22,47 @@ include 'shared.php'
 		<div id="moviecontent" class="content">
 		
 			<div class="overview">
-				<img src="http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/overview.png" alt="general overview" />
+				<?=$movieoverviewimage?>
 			</div>
 			<dl id="movieinfo" class="overviewcontent" style="font-family:verdana;font-size:8px">
 				<?=$movieoverview?>
 			</dl>
 			<div id="moviescore" class="score" style="background-image:url('http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/rottenbackground.png')">
-				<?$movieinfo?>
+				<?=$movieinfo?>
 			</div>
 			<div id="criticreview" class="critics">
 				<p id="moviecritic" class="critics0">
-					<?$moviereview1?>
+					<?=$moviereview1?>
 				</p>
 				<p id="moviecritic" class="critics1">
-					<?$moviereview2?>
+					<?=$moviereview2?>
 				</p>
 				<p id="moviecritic" class="critics2">
-					<?$moviereview3?>
+					<?=$moviereview3?>
 				</p>
 				<p id="moviecritic" class="critics3">
-					<?$moviereview4?>
+					<?=$moviereview4?>
 				</p>
 				<p id="moviecritic" class="critics4">
-					<?$moviereview5?>
+					<?=$moviereview5?>
 				</p>
 				<p id="moviecritic" class="critics5">
-					<?$moviereview6?>
+					<?=$moviereview6?>
 				</p>
 				<p id="moviecritic" class="critics6">
-					<?$moviereview7?>
+					<?=$moviereview7?>
 				</p>
 				<p id="moviecritic" class="critics7">
-					<?$moviereview8?>
+					<?=$moviereview8?>
 				</p>
 				<p id="moviecritic" class="critics8">
-					<?$moviereview9?>
+					<?=$moviereview9?>
 				</p>
 				<p id="moviecritic" class="critics9">
-					<?$moviereview10?>
+					<?=$moviereview10?>
 				</p>
 				<p id="moviecritic" class="critics10">
-					<?$moviereview11?>
+					<?=$moviereview11?>
 				</p>
 			</div>
 		</div>
