@@ -1,7 +1,9 @@
 <?php
 $movie = $_REQUEST['film'];
 $title = $movie;
-
+getcwd();
+chdir($movie);
+scandir($movie);
 function loadMovieInfo() {
 	$movieinfoassign = "<div>";
 	$movieinfomarkup = readfile("info.txt");
