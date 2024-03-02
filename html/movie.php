@@ -32,37 +32,37 @@ include 'shared.php'
 			</div>
 			<div id="criticreview" class="critics">
 				<p id="moviecritic" class="critics0">
-					<?=$moviereview1?><br>
+					<?=$moviereview1?>
 				</p>
 				<p id="moviecritic" class="critics1">
-					<?=$moviereview2?><br>
+					<?=$moviereview2?>
 				</p>
 				<p id="moviecritic" class="critics2">
-					<?=$moviereview3?><br>
+					<?=$moviereview3?>
 				</p>
 				<p id="moviecritic" class="critics3">
-					<?=$moviereview4?><br>
+					<?=$moviereview4?>
 				</p>
 				<p id="moviecritic" class="critics4">
-					<?=$moviereview5?><br>
+					<?=$moviereview5?>
 				</p>
 				<p id="moviecritic" class="critics5">
-					<?=$moviereview6?><br>
+					<?=$moviereview6?>
 				</p>
 				<p id="moviecritic" class="critics6">
-					<?=$moviereview7?><br>
+					<?=$moviereview7?>
 				</p>
 				<p id="moviecritic" class="critics7">
-					<?=$moviereview8?><br>
+					<?=$moviereview8?>
 				</p>
 				<p id="moviecritic" class="critics8">
-					<?=$moviereview9?><br>
+					<?=$moviereview9?>
 				</p>
 				<p id="moviecritic" class="critics9">
-					<?=$moviereview10?><br>
+					<?=$moviereview10?>
 				</p>
 				<p id="moviecritic" class="critics10">
-					<?=$moviereview11?><br>
+					<?=$moviereview11?>
 				</p>
 			</div>
 		</div>
