@@ -24,7 +24,7 @@ include 'shared.php'
 			<div class="overview">
 				<?=$movieoverviewimage?>
 			</div>
-			<dl id="movieinfo" class="overviewcontent" style="font-family:verdana;font-size:8px">
+			<dl id="movieinfo" class="overviewcontent" style="font-family:verdana">
 				<?=$movieoverview?><br>
 			</dl>
 			<div id="moviescore" class="score" style="background-image:url('http://www.u.arizona.edu/~milazzom/cscv337sp14/hw2/rottenbackground.png')">
